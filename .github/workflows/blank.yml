@@ -11,15 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run Calculator - Basic Math
-        run: |
-          echo "🔢 Starting calculator operations..."
 
-          a=10
-          b=5
 
-          echo "Addition: $((a + b))"
-          echo "Subtraction: $((a - b))"
-          echo "Multiplication: $((a * b))"
-          echo "Division: $((a / b))"
-          echo "Modulus: $((a % b))"
+      - name: Run Python Calculator
+        run: python3 calculator.py
