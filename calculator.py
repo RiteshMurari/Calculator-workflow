@@ -1,4 +1,4 @@
-a = 10
+a = 40
 b = 5
 
 print("🔢 Python Calculator")
